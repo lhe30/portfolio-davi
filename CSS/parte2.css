@@ -1,0 +1,43 @@
+.trabalhos p {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-trabalhos {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imagem-trabalho1 { 
+    padding: 7px;   
+    width: 250px;    
+}
+
+.veja-mais {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.veja-mais a{
+    color: #00BFFF;
+    font-size: 1.5rem;
+}
+
+.veja-mais a:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 730px) {
+
+    .img-trabalhos {
+        display: flex;
+        flex-direction: column;
+    }    
+}

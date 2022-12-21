@@ -1,0 +1,13 @@
+.sobre {
+    margin-top: 80px;
+}
+
+.foto-davi {
+    display: flex;
+    align-items: flex-start;
+}
+
+.titulo-sobre {
+    text-align: center;
+    margin-left: 200px;
+}
